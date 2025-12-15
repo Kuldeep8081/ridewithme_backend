@@ -1,15 +1,14 @@
 {
   "compilerOptions": {
-    /* Modules */
-    "module": "commonjs",                  // <--- Set this to commonjs
-    // "moduleResolution": "node",            // <--- Set this to node
-    "verbatimModuleSyntax": false,         // <--- IMPORTANT: Set this to false (or delete the line)
-    "esModuleInterop": true,               // <--- Ensure this is true
-    
-    /* Other standard settings you likely already have */
     "target": "es2016",
-    "strict": true,
-    "rootDir": "./src",      // Where your .ts files are
+    "module": "commonjs",
+    "rootDir": "./src",
     "outDir": "./dist",
-  }
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"] 
 }
