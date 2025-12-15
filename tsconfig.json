@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    /* Modules */
+    "module": "commonjs",                  // <--- Set this to commonjs
+    // "moduleResolution": "node",            // <--- Set this to node
+    "verbatimModuleSyntax": false,         // <--- IMPORTANT: Set this to false (or delete the line)
+    "esModuleInterop": true,               // <--- Ensure this is true
+    
+    /* Other standard settings you likely already have */
+    "target": "es2016",
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "./src"
+  }
+}
